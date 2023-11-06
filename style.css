@@ -1,0 +1,80 @@
+h1 {
+    color: rgb(163, 34, 34);/*цвет текста*/
+    text-align:center;
+    margin-bottom: 25px;
+    background-color: aqua;
+}
+a {font: size 40px; ;/* размер текста*/
+   background-color: aquamarine;
+
+}
+  
+div{
+    background-color: rgb(253, 241, 241); /*цвет фона*/
+    padding: 35px; /*внутрннеий отступ со всех сторон*/ 
+}
+.post-1{
+    background-color: brown;
+}
+.post-2{
+    background-color: blue;
+}
+h2 {text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px; 
+}
+img{
+ width: 70%;/*ширина*/
+    align-self: center; /*ширина*/
+    margin: auto; /*автоматический отступ с права и слева*/
+    display: block; /*картинке задают блочные параматры*/
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+p{ 
+  color:darkgreen; 
+  text-align: center; 
+  border: 1px solid; black;
+  font-size: 24px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*
+Задача. 1.сделать отступ между заголовкками статьи и картинкой в размере 30пх. 
+        2.сделать отступ между картинкой и текстом статьи в размере 25пх.
+
+Margin - внешиний отступ
+1.margin-top. сверху 
+2.margin-right. справо
+3.margin-bootom. снизу 
+4.margin-left. слева
+
+Padding - внутренний отступ 
+1.padding-top.сверху
+2.padding-right.справа
+3.padding-bootom.снизу
+4.padding-left.слева
+
+ h2, h3,h4,h5,h6 {свойства будут применяться для всех заголовков указаных через запятую}
+
+Единицы измерения в css
+1. Абсолютные ( px,em, rem, cm)
+2. Относительные %, vh, vw)
+
+ctrl + / - создать коментарий
+селектор {
+    свойство: значение ;
+}
+селектор - выбор элемента из  , который вы хотите поменять 
+свойства - характеристика, которую вы хотите поменять  
+значение - опция, на которую мы хотим поменять свойство
+
+Виды селекторов:
+1. по тегу 
+2.по классу
+
+
+/*
